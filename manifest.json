@@ -1,7 +1,7 @@
 {
 
     "manifest_version": 2,
-    "name": "ams-diff-check",
+    "name": "qut-ams-diff",
     "version": "0.0.2",
   
     "description": "Shows the difference on the QUT AMS system",
