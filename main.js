@@ -16,7 +16,6 @@ const matches = console_element.textContent.matchAll(/<Expected>(.*?)<\/Expected
 
 
 for (const match of matches) {
-    console.log("test")
     const expected = match[1]
     const actual = match[2]
 
