@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "ams-diff-check",
+    "version": "0.0.2",
+  
+    "description": "Shows the difference on the QUT AMS system",
+  
+    "content_scripts": [
+      {
+        "matches": ["https://sefams01.qut.edu.au/CAB202/Exercise?TopicNumber=*&ProblemNumber=*"],
+        "js": ["./deps/diff.js", "./deps/diff2html-ui.min.js", "main.js"],
+        "css": ["./deps/diff2html.min.css"]
+      }
+    ]
+  
+  }
